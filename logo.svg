@@ -1,0 +1,14 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="fc"><path d="M122 40 H178 V118 L248 236 Q262 266 230 266 H70 Q38 266 52 236 L122 118 Z"/></clipPath>
+  <linearGradient id="liq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd23f"/><stop offset="1" stop-color="#f7931a"/></linearGradient>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <g clip-path="url(#fc)">
+  <path d="M0 168 Q40 156 80 168 T160 168 T240 168 T320 168 V300 H0 Z" fill="url(#liq)"/>
+  <text x="150" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-weight="800" font-size="72" fill="#0a1030">B</text><path d="M141 182v14M157 182v14M141 245v13M157 245v13" stroke="#0a1030" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="118" cy="150" r="7" fill="#ffd23f" opacity=".9"/><circle cx="170" cy="132" r="5" fill="#ffd23f" opacity=".8"/><circle cx="146" cy="110" r="4" fill="#ffd23f" opacity=".7"/>
+ </g>
+ <path d="M122 40 H178 V118 L248 236 Q262 266 230 266 H70 Q38 266 52 236 L122 118 Z" fill="none" stroke="#00f0ff" stroke-width="12" stroke-linejoin="round" filter="url(#glow)"/>
+ <rect x="108" y="28" width="84" height="16" rx="8" fill="#00f0ff" filter="url(#glow)"/>
+</svg>
